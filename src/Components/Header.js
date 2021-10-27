@@ -34,6 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    //asd
+
     if (backdrop.length) {
         for (var i = 0; i < backdrop.length; i++) {
             backdrop[i].addEventListener('click', function() {
