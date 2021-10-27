@@ -5,7 +5,7 @@ import './underline.css'
 const Banner = () =>{
     return(
         <div className="">
-            <div className="w-full">
+            {/* <div className="w-full">
                     <div className="container mx-auto py-10">
                         <div className="flex justify-around">
                             <div className="bg-white shadow-lg  w-24 rounded-md lg:rounded-xl lg:p-14 lg:w-1/4 flex justify-center items-center">
@@ -19,7 +19,7 @@ const Banner = () =>{
                             </div>
                         </div>
                     </div>
-                 </div>
+                 </div> */}
         </div>
     )
 }

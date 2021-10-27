@@ -6,6 +6,8 @@ import MyTeam from "./Components/Myteam";
 import Video from "./Components/Video";
 import Footer from "./Components/Footer";
 import Accordion from "./Components/Accordion";
+import Ourcompany from "./Components/Ourcompany";
+import Whitepaper from "./Components/Whitepaper";
 
 
 function App() {
@@ -15,7 +17,9 @@ function App() {
         <Banner />
         <Feature />
         <EcoSystem />
+        <Whitepaper />
         <MyTeam />
+        <Ourcompany />
         {/* <Video /> */}
         <Accordion />
         <Footer />
