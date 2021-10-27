@@ -10,7 +10,7 @@ const EcoSystem = () => {
                 </div>
                 <div className="lg:w-4/6">
                     <p className="text-white text-center text-sm lg:text-xl mt-5">MONT нь Монгол төгрөгт аргамжсан стэйблкойн учир крипто зах зээлийн савалгаанаас ангид юм. Энэхүү үнийн харьцангуй тогтвортой байдал нь крипто арилжаа хийх эрсдэлийг бууруулах болно.</p>
-                </div>
+                </div> 
             </div>
         </div>
     )
