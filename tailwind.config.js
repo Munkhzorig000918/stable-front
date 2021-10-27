@@ -6,6 +6,7 @@ module.exports = {
       animation:{
         bounce: 'bounce 10s linear infinite',
       },
+      colors: {'dax-gray': '#fbfbfb'}
     },
   },
   variants: {
