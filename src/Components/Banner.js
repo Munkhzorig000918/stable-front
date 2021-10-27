@@ -6,7 +6,7 @@ const Banner = () =>{
     return(
         <div className="">
             <div className="w-full">
-                    <div className="container relative -top-10 lg:-top-20 mx-auto">
+                    <div className="container mx-auto py-10">
                         <div className="flex justify-around">
                             <div className="bg-white shadow-lg  w-24 rounded-md lg:rounded-xl lg:p-14 lg:w-1/4 flex justify-center items-center">
                                 <p className="text-center text-blue-400 text-xl lg:text-5xl font-extrabold">+400,000</p>

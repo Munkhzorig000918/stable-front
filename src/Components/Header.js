@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const Header = () =>{
     return(
-        <div className="w-full py-3 sticky" style={{ backgroundImage: `url(${Bg})`, backgroundRepeat: "no-repeat", backgroundSize: "2000px 704px" }}>
+        <div className="w-full py-3 sticky" style={{ backgroundImage: `url(${Bg})`, backgroundRepeat: "no-repeat", backgroundSize: "2000px 604px" }}>
             
             <nav className="relative px-4 py-4 flex justify-between items-center z-50">
                 <a className="text-3xl font-bold leading-none text-white" href="#">
@@ -99,7 +99,7 @@ const Header = () =>{
                     <div className="container mx-auto">
                         <div className="flex items-center">
                             <div className="lg:pl-14">
-                                <h1 className="font-bold text-xl lg:text-6xl lg:w-4/5 text-white">Илүү хялбар. БҮР найдвартай</h1>
+                                <h1 className="font-bold text-xl lg:text-6xl lg:w-4/5 text-white italic font-sans">Илүү хялбар. БҮР найдвартай</h1>
                                 <span className="font-light lg:w-2/5 text-white mt-5 hidden md:block">MONT бол крипто бирж хооронд шилжүүлэг хийх хамгийн хялбар зам</span>
                             </div> 
                             <div className="mb-10 ">
