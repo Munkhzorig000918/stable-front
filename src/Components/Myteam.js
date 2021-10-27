@@ -7,24 +7,43 @@ const MyTeam = () => {
         <div className="w-full" style={{ backgroundImage: `url(${Bubble})` }}>
             <div className="container mx-auto flex flex-col">
                 <div className="mx-2.5 lg:pl-16">
-                    <h1 className="font-bold text-3xl py-14">Манай баг</h1>
+                    <h1 className="font-bold text-3xl py-14">Төсөлийн баг</h1>
                 </div>
                 <div className="container mx-auto">
                     <div className="flex justify-around mx-2.5 space-x-5">
-                        <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center pb-10">
-                            <img src={Robo} />
-                            <h1 className="text-xl mt-5">Tuku</h1>
-                            <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Co-Founder & Ceo</p>
+                        <div className="space-y-12">
+                            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
+                                <img src={Robo} />
+                                <h1 className="text-xl mt-5">Tuku</h1>
+                                <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Co-Founder & Ceo</p>
+                            </div>
+                            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
+                                <img src={Robo} />
+                                <h1 className="text-xl mt-5">Tuku</h1>
+                                <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Co-Founder & Ceo</p>
+                            </div>
+                            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
+                                <img src={Robo} />
+                                <h1 className="text-xl mt-5">Tuku</h1>
+                                <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Co-Founder & Ceo</p>
+                            </div>
                         </div>
-                        <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center pb-10">
-                            <img src={Robo} />
-                            <h1 className="text-xl mt-5">Tuku</h1>
-                            <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Co-Founder & Ceo</p>
-                        </div>
-                        <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center pb-10">
-                            <img src={Robo} />
-                            <h1 className="text-xl mt-5">Tuku</h1>
-                            <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Co-Founder & Ceo</p>
+                        <div className=" space-y-12">
+                            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
+                                <img src={Robo} />
+                                <h1 className="text-xl mt-5">Tuku</h1>
+                                <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Co-Founder & Ceo</p>
+                            </div>
+                            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
+                                <img src={Robo} />
+                                <h1 className="text-xl mt-5">Tuku</h1>
+                                <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Co-Founder & Ceo</p>
+                            </div>
+                            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
+                                <img src={Robo} />
+                                <h1 className="text-xl mt-5">Tuku</h1>
+                                <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Co-Founder & Ceo</p>
+                            </div>
                         </div>
                     </div>
                 </div>

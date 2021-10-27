@@ -6,7 +6,7 @@ const Ourcompany = () =>{
         <div className="w-full">
             <div className="container mx-auto flex flex-col pb-10">
                 <div className="mx-2.5 lg:pl-16">
-                    <h1 className="font-bold text-3xl py-14">Хамтрагч байгуулга</h1>
+                    <h1 className="font-bold text-3xl py-14">Хамтрагч байгууллагууд</h1>
                 </div>
                 <div className="container mx-auto">
                     <div className="flex justify-evenly mx-2.5 space-x-5">
