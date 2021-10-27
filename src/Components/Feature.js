@@ -7,7 +7,7 @@ const Feature = () => {
         <div className="w-full py-10">
             <div className="container mx-auto">
                 <div className="lg:flex lg:flex-row justify-evenly flex flex-col-reverse">
-                    <div className="">
+                    <div className="flex items-center justify-center mt-2">
                         <img src={video} width="300px" className="" />
                     </div>
                     <div className="flex flex-col mx-2.5 lg:w-2/4 lg:ml-16">

@@ -20,7 +20,7 @@ function App() {
         <Whitepaper />
         <MyTeam />
         <Ourcompany />
-        {/* <Video /> */}
+        <Video />
         <Accordion />
         <Footer />
     </div>

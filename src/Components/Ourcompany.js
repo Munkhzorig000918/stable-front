@@ -4,7 +4,7 @@ import GC from '../assets/GC.png'
 const Ourcompany = () =>{
     return(
         <div className="w-full">
-            <div className="container mx-auto flex flex-col">
+            <div className="container mx-auto flex flex-col pb-10">
                 <div className="mx-2.5 lg:pl-16">
                     <h1 className="font-bold text-3xl py-14">Хамтрагч байгуулга</h1>
                 </div>
