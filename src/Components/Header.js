@@ -3,7 +3,7 @@ import './underline.css'
 import Bg from '../assets/back.gif'
 import Coin from '../assets/coin.png'
 import Hamburger from "./hamburger";
-
+import LazyLoad from 'react-lazyload';
 
 document.addEventListener('DOMContentLoaded', function() {
     // open
@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const Header = () =>{
     return(
+        <LazyLoad height={200}>
         <div className="w-full py-3 sticky" style={{ backgroundImage: `url(${Bg})`, backgroundRepeat: "no-repeat", backgroundSize: "2000px 604px" }}>
             
             <nav className="relative px-4 py-4 flex justify-between items-center z-20">
@@ -121,6 +122,7 @@ const Header = () =>{
                     </div>
                  </div>
         </div>
+        </LazyLoad>
     )
 }
 
