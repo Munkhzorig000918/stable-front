@@ -1,5 +1,6 @@
 import React from "react";
 import Spin from '../assets/title.png'
+import video from '../assets/23.gif'
 
 const Feature = () => {
     return(
@@ -7,7 +8,7 @@ const Feature = () => {
             <div className="container mx-auto">
                 <div className="lg:flex lg:flex-row justify-evenly flex flex-col-reverse">
                     <div className="">
-                        <img src={Spin} className="" />
+                        <img src={video} className="" />
                     </div>
                     <div className="flex flex-col mx-2.5 lg:w-2/4 lg:ml-16">
                         <h1 className=" font-extrabold text-xl lg:text-2xl">Дэлхийн крипто зах зээлд нэвтрэх боломж</h1>
