@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Banner from "./Components/Banner";
+import Header from "./Components/Header";
+import Feature from "./Components/Feature";
+import EcoSystem from "./Components/Ecosystem";
+import MyTeam from "./Components/Myteam";
+import Video from "./Components/Video";
+import Footer from "./Components/Footer";
+import Accordion from "./Components/Accordion";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" overflow-x-hidden">
+        <Header />
+        <Banner />
+        <Feature />
+        <EcoSystem />
+        <MyTeam />
+        {/* <Video /> */}
+        <Accordion />
+        <Footer />
     </div>
   );
 }
