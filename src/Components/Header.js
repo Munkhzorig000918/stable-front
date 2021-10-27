@@ -1,6 +1,6 @@
 import React from "react";
 import './underline.css'
-import Bg from '../assets/bg.gif'
+import Bg from '../assets/bg1.png'
 import Coin from '../assets/coin.png'
 import Hamburger from "./hamburger";
 
