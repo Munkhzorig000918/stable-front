@@ -51,9 +51,9 @@ document.addEventListener('DOMContentLoaded', function() {
 const Header = () =>{
     return(
         <LazyLoad height={200} once>
-        <div className="w-full py-3 " style={{ backgroundImage: `url(${Bg})`, backgroundRepeat: "no-repeat", backgroundSize: "2000px 604px" }}>
+        <div className="w-full" style={{ backgroundImage: `url(${Bg})`, backgroundRepeat: "no-repeat", backgroundSize: "2000px 604px" }}>
             
-            <nav className="relative px-4 py-4 flex justify-between items-center z-20">
+            <nav className="fixed px-4 py-4 flex justify-between items-center z-20 bg-gray-900 w-full">
                 <a className="text-3xl font-bold leading-none text-white" href="#">
                     <img src={logo} className="w-10" />
                 </a>
@@ -65,7 +65,7 @@ const Header = () =>{
                         </svg>
                     </button>
                 </div>
-                <ul className="hidden absolute left-60 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+                <ul className="hidden fixed left-60 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
                     <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#">Нүүр</a></li>
                     <li className="text-gray-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">

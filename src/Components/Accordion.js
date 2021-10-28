@@ -13,7 +13,7 @@ const Accordion = () => {
                 <div className="m-8 rounded overflow-hidden">
                     <div className="group outline-none accordion-section" tabindex="1">
                         <div className="group flex justify-between px-4 py-3 items-center text-gray-600 transition ease duration-500 cursor-pointer pr-10">
-                        <div className="group-focus:text-gray-600 transition ease duration-500  font-extrabold">
+                        <div className="group-focus:text-gray-600 transition ease duration-500  font-extrabold text-2xl">
                             Стэйблкойн гэж юу вэ?
                         </div>
                         <div className="">
@@ -28,7 +28,7 @@ const Accordion = () => {
                     </div>
                     <div className="group outline-none accordion-section" tabindex="2">
                         <div className="group  flex justify-between px-4 py-3 items-center text-gray-600 transition ease duration-500 cursor-pointer pr-10">
-                        <div className="group-focus:text-gray-600 transition ease duration-500 font-extrabold ">
+                        <div className="group-focus:text-gray-600 transition ease duration-500 font-extrabold text-2xl ">
                             MONT гэж юу вэ?
                         </div>
                         <div className="">
@@ -45,7 +45,7 @@ const Accordion = () => {
                         <div
                         className="group flex justify-between px-4 py-3 items-center text-gray-600 transition ease duration-500 cursor-pointer pr-10"
                         >
-                        <div className="group-focus:text-gray-600 transition ease duration-500 font-extrabold">
+                        <div className="group-focus:text-gray-600 transition ease duration-500 font-extrabold text-2xl">
                             MONT нь аль блокчэйн дээр нэвтэрсэн байгаа вэ?
                         </div>
                         <div className="">
@@ -64,7 +64,7 @@ const Accordion = () => {
                         <div
                         className="group flex justify-between px-4 py-3 items-center text-gray-600 transition ease duration-500 cursor-pointer pr-10"
                         >
-                        <div className="group-focus:text-gray-600 transition ease duration-500 font-extrabold">
+                        <div className="group-focus:text-gray-600 transition ease duration-500 font-extrabold text-2xl">
                             MONT нь ямар үнэ цэнтэй бэ?
                         </div>
                         <div className="">
@@ -83,7 +83,7 @@ const Accordion = () => {
                         <div
                         className="group flex justify-between px-4 py-3 items-center text-gray-600 transition ease duration-500 cursor-pointer pr-10"
                         >
-                        <div className="group-focus:text-gray-600 transition ease duration-500 font-extrabold">
+                        <div className="group-focus:text-gray-600 transition ease duration-500 font-extrabold text-2xl">
                             Хэрхэн MONT худалдаж авах вэ?
                         </div>
                         <div className="">
@@ -102,7 +102,7 @@ const Accordion = () => {
                         <div
                         className="group flex justify-between px-4 py-3 items-center text-gray-600 transition ease duration-500 cursor-pointer pr-10"
                         >
-                        <div className="group-focus:text-gray-600 transition ease duration-500 font-extrabold">
+                        <div className="group-focus:text-gray-600 transition ease duration-500 font-extrabold text-2xl">
                             Хэрхэн MONT-ыг шилжүүлэх вэ?
                         </div>
                         <div className="">
@@ -121,7 +121,7 @@ const Accordion = () => {
                         <div
                         className="group flex justify-between px-4 py-3 items-center text-gray-600 transition ease duration-500 cursor-pointer pr-10"
                         >
-                        <div className="group-focus:text-gray-600 transition ease duration-500 font-extrabold">
+                        <div className="group-focus:text-gray-600 transition ease duration-500 font-extrabold text-2xl">
                             Яагаад MONT гэж?
                         </div>
                         <div className="">

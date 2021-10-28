@@ -9,41 +9,50 @@ import Eegii from "../assets/Eegii.png"
 const member = [
 
     <div className="container mx-auto mt-10">
-        <div className="flex justify-around mx-2.5 space-x-5 mt-10">
-            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
-                <img className="w-60" src={Eegii} />
+        <div className="flex flex-col lg:flex lg:flex-row justify-around mx-2.5 mt-10">
+            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                <img className="w-44" src={Eegii} />
                 <h1 className="text-xl mt-5">Энх-Амгалан</h1>
                 <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Diverse Solutions CEO</p>
                 
             </div>
-            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
-                <img className="w-60" src={Od} />
+            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                <img className="w-44" src={Od} />
                 <h1 className="text-xl mt-5">Мөнх-Од</h1>
                 <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Diverse solutions CTO</p>
             </div>
-            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
-                <img className="w-60" src={Od} />
-                <h1 className="text-xl mt-5">Мөнх-Од</h1>
-                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Diverse solutions CTO</p>
-            </div>
-            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
-                <img className="w-60" src={Od} />
+            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                <img className="w-44" src={Od} />
                 <h1 className="text-xl mt-5">Мөнх-Од</h1>
                 <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Diverse solutions CTO</p>
             </div>
         </div>
-        <div className="flex justify-evenly mx-2.5 space-x-5 mt-10">
-            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
-                <img className="w-60" src={Eegii} />
+        <div className="flex flex-col lg:flex lg:flex-row justify-around mx-2.5 mt-10">
+            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                <img className="w-44" src={Eegii} />
                 <h1 className="text-xl mt-5">Энх-Амгалан</h1>
                 <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Diverse Solutions CEO</p>
                 
             </div>
-            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
-                <img className="w-60" src={Od} />
+            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                <img className="w-44" src={Od} />
                 <h1 className="text-xl mt-5">Мөнх-Од</h1>
                 <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Diverse solutions CTO</p>
             </div> 
+            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                <img className="w-44" src={Od} />
+                <h1 className="text-xl mt-5">Мөнх-Од</h1>
+                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Diverse solutions CTO</p>
+            </div> 
+        </div>
+        <div className="flex flex-col lg:flex lg:flex-row justify-around mx-2.5 mt-10">
+            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                <img className="w-44" src={Eegii} />
+                <h1 className="text-xl mt-5">Энх-Амгалан</h1>
+                <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Diverse Solutions CEO</p>
+                
+            </div>
+            
         </div>
     </div>
 ];
@@ -59,29 +68,25 @@ const MyTeam = () => {
                     <h1 id="team" className="font-bold text-3xl py-14">Төслийн баг</h1>
                 </div>
                 <div className="container mx-auto">
-                    <div className="flex justify-around mx-2.5 space-x-5">
+                    <div className="flex flex-col lg:flex lg:flex-row justify-around mx-2.5">
                         
-                            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
-                                <img className="w-60" src={Eegii} />
+                            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                                <img className="w-44" src={Eegii} />
                                 <h1 className="text-xl mt-5">Энх-Амгалан</h1>
                                 <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Diverse Solutions CEO</p>
                                 
                             </div>
-                            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
-                                <img className="w-60" src={Od} />
+                            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                                <img className="w-44" src={Od} />
                                 <h1 className="text-xl mt-5">Мөнх-Од</h1>
                                 <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Diverse solutions CTO</p>
                             </div>
-                            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
-                                <img className="w-60" src={Od} />
+                            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                                <img className="w-44" src={Od} />
                                 <h1 className="text-xl mt-5">Мөнх-Од</h1>
                                 <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Diverse solutions CTO</p>
                             </div>
-                            <div className="bg-white shadow-xl rounded-xl flex flex-col justify-center items-center ">
-                                <img className="w-60" src={Od} />
-                                <h1 className="text-xl mt-5">Мөнх-Од</h1>
-                                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">Diverse solutions CTO</p>
-                            </div>
+                            
                         </div>
                 </div>
                 {

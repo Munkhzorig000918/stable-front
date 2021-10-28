@@ -1,66 +1,49 @@
 import React from 'react'
 import GC from '../assets/GC.png'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-
-const conpany = [
-        
-]
+import Complex from '../assets/Complex.jpeg'
+import DS from '../assets/DS.jpeg'
+import Ard from '../assets/ARd.png'
+import dax from '../assets/dax.jpeg'
+import tenger from '../assets/tenger.jpeg'
 
 const Ourcompany = () =>{
-
     return(
-        <div className="w-full flex flex-col justify-center items-center">
-            
+        <div className="w-full">
+            <div className="container mx-auto flex flex-col pb-10">
                 <div className="mx-2.5 lg:pl-16">
                     <h1 className="font-bold text-3xl py-14" id='company'>Хамтрагч байгууллагууд</h1>
                 </div>
-                <div className='sm:w-2/4'>
-                <Carousel>
-                        <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
-                            
-                            <img src={GC} width="150px" />
-                            
+                <div className="container mx-auto">
+                    <div className="flex flex-col lg:flex lg:flex-row justify-around mx-2.5">
+                        <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center">
+                            <img src={GC} />
                         </div>
-                        <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
-                            
-                            <img src={GC} width="150px" />
-                            
+                        <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center">
+                            <img src={DS} />
                         </div>
-                        <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
-                            
-                            <img src={GC} width="150px" />
-                            
+                        <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center">
+                            <img src={Ard} />
                         </div>
-                        <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
-                            
-                            <img src={GC} width="150px" />
-                            
+                    </div>
+                    <div className="flex flex-col lg:flex lg:flex-row justify-around mx-2.5 mt-5">
+                        <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center">
+                            <img src={dax} />
                         </div>
-                        <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
-                            
-                            <img src={GC} width="150px" />
-                            
+                        <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center">
+                            <img src={Complex} />
                         </div>
-                        <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
-                            
-                            <img src={GC} width="150px" />
-                            
+                        <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center">
+                            <img src={tenger} />
                         </div>
-                        <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
-                            
-                            <img src={GC} width="150px" />
-                            
-                        </div>
-                        <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
-                            
-                            <img src={GC} width="150px" />
-                            
-                        </div>
-                        </Carousel>
-                        </div>
+                    </div>
+                </div>
+                {/* <div className="flex items-center justify-center py-10">
+                    <div className="bg-black p-5 rounded-lg hover:bg-blue-400 transition-all duration-200 cursor-pointer">
+                        <h1 className="font-bold text-white">+ Бүх хүмүүс</h1>
+                    </div>
+                </div> */}
             </div>
-
+        </div>
     )
 }
 
