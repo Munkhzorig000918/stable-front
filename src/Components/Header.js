@@ -108,7 +108,7 @@ const Header = () =>{
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
                         </svg>
                     </li>
-                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="https://bscscan.com/token/0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4">BscScan</a></li>
+                    <li><a className="text-sm text-gray-400 hover:text-gray-500" target="_blank" href="https://bscscan.com/token/0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4">BscScan</a></li>
                 </ul>
                 <a className="hidden xl:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" target="_blank" href="whitepaper.pdf">White paper</a>
             </nav>
