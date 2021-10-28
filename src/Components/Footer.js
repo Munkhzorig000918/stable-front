@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa"
+import { FaFacebook ,FaTwitter } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
 // import { FaFacebook } from "react-icons/fa";
 import logo from "../assets/logo.png"
@@ -18,11 +18,11 @@ const Footer = () => {
                                 <p>Холбоо барих</p>
                             </div>
                             <div className="text-white">
-                                <p>Email: gmail@gmail.com</p>
+                                <p>Email: admin@stablecoin.mn</p>
                                 <div className="flex space-x-10">
                                     <a className="mt-2"><FaFacebook className="hover:text-gray-500" /></a>
                                     <a className="mt-2"><FaInstagram className="hover:text-gray-500" /></a>
-                                    <a className="mt-2"><FaFacebook className="hover:text-gray-500" /></a>
+                                    <a className="mt-2"><FaTwitter className="hover:text-gray-500" /></a>
                                 </div>
                             </div>
                         </div>

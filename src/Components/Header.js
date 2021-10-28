@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const Header = () =>{
     return(
         <LazyLoad height={200} once>
-        <div className="w-full py-3 sticky" style={{ backgroundImage: `url(${Bg})`, backgroundRepeat: "no-repeat", backgroundSize: "2000px 604px" }}>
+        <div className="w-full py-3 " style={{ backgroundImage: `url(${Bg})`, backgroundRepeat: "no-repeat", backgroundSize: "2000px 604px" }}>
             
             <nav className="relative px-4 py-4 flex justify-between items-center z-20">
                 <a className="text-3xl font-bold leading-none text-white" href="#">

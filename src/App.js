@@ -18,10 +18,10 @@ function App() {
         <Feature />
         <EcoSystem />
         <MyTeam />
-        <Ourcompany />
+        <Ourcompany  />
         {/* <Video /> */}
         <Accordion />
-        <Whitepaper />
+        {/* <Whitepaper /> */}
         <Footer />
     </div>
   );
