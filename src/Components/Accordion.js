@@ -98,7 +98,7 @@ const Accordion = () => {
           {({ open }) => (
             <>
               <Disclosure.Button className="flex justify-between w-full p-5 text-sm font-medium text-left rounded-lg hover:bg-gray-400 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span className="text-md lg:text-xl">Хэрхэн MONT-ийг шилжүүлэх вэ?</span>
+                <span className="text-md lg:text-xl">Хэрхэн MONT-ыг шилжүүлэх вэ?</span>
                 <BsChevronDown
                   className={`${
                     open ? 'transform rotate-180' : ''
