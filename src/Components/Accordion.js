@@ -8,13 +8,13 @@ const Accordion = () => {
         <div>
             <div className="container mx-auto py-28" style={{backgroundImage: `url(${Bubble})`}}>
                 <div className="">
-                    <h1 id="faq" className="text-center font-bold text-4xl">Түгээмэл асуулт хариулт</h1>
+                    <h1 id="faq" className="text-center font-bold text-4xl">Түгээмэл асуултууд</h1>
                 </div>
                 <div className="m-8 rounded overflow-hidden">
                     <div className="group outline-none accordion-section" tabindex="1">
                         <div className="group flex justify-between px-4 py-3 items-center text-gray-600 transition ease duration-500 cursor-pointer pr-10">
                         <div className="group-focus:text-gray-600 transition ease duration-500">
-                            Стэйблкойн гэж юу вэ? 
+                            Стэйблкойн гэж юу вэ?
                         </div>
                         <div className="">
                             <FaAngleDown />
@@ -22,7 +22,7 @@ const Accordion = () => {
                         </div>
                         <div className="group-focus:max-h-screen max-h-0  px-4 overflow-hidden ease duration-500">
                         <p className="p-2 text-gray-700 text-justify">
-                            Стэйблкойн нь валютын нөөцөөр баталгаажиж, үнэ цэнээ аргамжсан криптовалютын төрөл юм.
+                            Стэйблкойн нь валютын нөөцөөр баталгаажиж, үнэ цэнээ аргамжсан криптовалютын төрөл юм
                         </p>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ const Accordion = () => {
                         className="group-focus:max-h-screen max-h-0 px-4 overflow-hidden ease duration-500"
                         >
                         <p className="p-2 text-gray-700 text-justify">
-                            MONT нь Binance Smart Chain болон Ethereum блокчэйн сүлжээнд нэвтэрсэн байгаа бөгөөд удалгүй Solana, Cordana зэрэг блокчэйнд нэвтрэх ажил хийгдэж байна.
+                            MONT нь Binance Smart Chain болон Ethereum блокчэйн сүлжээнд байршсан бөгөөд удалгүй Solana, Cardano зэрэг блокчэйнд нэвтрэх ажил хийгдэж байна
                         </p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ const Accordion = () => {
                         className="group-focus:max-h-screen max-h-0 px-4 overflow-hidden ease duration-500"
                         >
                         <p className="p-2 text-gray-700 text-justify">
-                            MONT нь ямагт Монгол төгрөгтэй 1:1 харьцах үнэ цэнтэй байх болно.
+                            MONT нь ямагт Монгол төгрөгтэй 1:1 харьцах үнэ цэнтэй байх болно
                         </p>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ const Accordion = () => {
                         className="group-focus:max-h-screen max-h-0 px-4 overflow-hidden ease duration-500"
                         >
                         <p className="p-2 text-gray-700 text-justify">
-                            Та MONT-ыг өөрийн хэрэглээний виртуал хөрөнгийн бирж дээр арилжиж авах боломжтой. Бид MONT-ыг дотоодын болон олон улсын биржүүд дээр нэвтрүүлэхээр ажиллаж байна.
+                            Та MONT-ыг өөрийн хэрэглээний виртуал хөрөнгийн бирж дээр арилжиж авах боломжтой. Бид MONT-ыг дотоод болон гадаадын олон биржид нэвтрүүлэхээр ажиллаж байна
                         </p>
                         </div>
                     </div>
@@ -114,6 +114,25 @@ const Accordion = () => {
                         >
                         <p className="p-2 text-gray-700 text-justify">
                             Та MONT-ыг өөрийн хэрэглээний бирж эсвэл хэтэвчээр дамжуулан шилжүүлэх боломжтой. Та шилжүүлэг хийхээсээ өмнө зөв сүлжээгээр (BEP-20, ERC-20, г.м) хийж байгаагаа дахин нягтлаарай.
+                        </p>
+                        </div>
+                    </div>
+                    <div className="group outline-none accordion-section" tabindex="3">
+                        <div
+                        className="group flex justify-between px-4 py-3 items-center text-gray-600 transition ease duration-500 cursor-pointer pr-10"
+                        >
+                        <div className="group-focus:text-gray-600 transition ease duration-500">
+                            Яагаад MONT гэж?
+                        </div>
+                        <div className="">
+                            <FaAngleDown />
+                        </div>
+                        </div>
+                        <div
+                        className="group-focus:max-h-screen max-h-0 px-4 overflow-hidden ease duration-500"
+                        >
+                        <p className="p-2 text-gray-700 text-justify">
+                            MONT нь Монгол иргэний хэрэглээнд хамгийн дөхөм, найдвартай, аюулгүй стэйблкойн юм. MONT-ын аюулгүй байдлыг Олон улсын блокчэйн аудитын компани болох Certik аудит хийсэн болно
                         </p>
                         </div>
                     </div>

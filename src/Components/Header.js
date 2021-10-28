@@ -4,6 +4,7 @@ import Bg from '../assets/back.gif'
 import Coin from '../assets/coin.png'
 import Hamburger from "./hamburger";
 import LazyLoad from 'react-lazyload';
+import logo from "../assets/logo.png"
 
 document.addEventListener('DOMContentLoaded', function() {
     // open
@@ -54,7 +55,7 @@ const Header = () =>{
             
             <nav className="relative px-4 py-4 flex justify-between items-center z-20">
                 <a className="text-3xl font-bold leading-none text-white" href="#">
-                    MONT
+                    <img src={logo} className="w-10" />
                 </a>
                 <div className="lg:hidden">
                     <button className="navbar-burger flex items-center text-blue-600 p-3">
@@ -83,7 +84,7 @@ const Header = () =>{
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
                         </svg>
                     </li>
-                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#team">Төсөлийн баг</a></li>
+                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#team">Төслийн баг</a></li>
                     <li className="text-gray-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
@@ -113,7 +114,7 @@ const Header = () =>{
                         <div className="flex items-center mx-2.5">
                             <div className="lg:pl-14">
                                 <h1 className="font-bold text-xl lg:text-6xl lg:w-4/5 text-white italic font-sans">Виртуал мөнгө хялбар боллоо.</h1>
-                                <span className="font-light lg:w-2/5 text-white mt-5 hidden md:block">MONT бол крипто бирж хооронд шилжүүлэг хийх хамгийн хялбар арга <br /> <strong><i>ИЛҮҮ ХЯЛБАР, ИЛҮҮ НАЙДВАРТАЙ</i></strong></span>
+                                <span className="font-light lg:w-2/5 text-white mt-5 hidden md:block"><strong><i>ИЛҮҮ ХЯЛБАР, ИЛҮҮ НАЙДВАРТАЙ</i></strong> Крипто зах зээлд хил хязгааргүй оролцох боломж</span>
                             </div> 
                             <div className="mb-10 ">
                                 <img className="sm:hidden block animate-bounce" src={Coin} />

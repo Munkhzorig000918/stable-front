@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebook } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
 // import { FaFacebook } from "react-icons/fa";
+import logo from "../assets/logo.png"
 
 const Footer = () => {
     return(
@@ -9,10 +10,10 @@ const Footer = () => {
             <div className="container mx-auto py-10">
                 <div className="flex flex-col lg:flex lg:flex-row lg:justify-between">
                     <div className=" flex items-center justify-center">
-                        <h1 className="lg:pl-14 text-5xl text-center text-white">MONT</h1>
+                        <img className="w-20" src={logo} />
                     </div>
-                    <div className="mx-2.5 mt-5">
-                        <div className="flex flex-col justify-center">
+                    <div className="">
+                        <div className="flex flex-col justify-center mt-5 ml-4">
                             <div id="contact" className="text-white">
                                 <p>Холбоо барих</p>
                             </div>
