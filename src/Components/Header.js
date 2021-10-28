@@ -65,7 +65,7 @@ const Header = () =>{
                         </svg>
                     </button>
                 </div>
-                <ul className="hidden fixed left-60 transform -translate-y-1/2 -translate-x-1/2 xl:mx-auto xl:flex xl:items-center xl:w-auto xl:space-x-6">
+                <ul className="hidden fixed left-32 transform -translate-y-1/2 -translate-x-1/2 xl:mx-auto xl:flex xl:items-center xl:w-auto xl:space-x-6">
                     <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#">Нүүр</a></li>
                     <li className="text-gray-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">
