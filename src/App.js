@@ -19,7 +19,7 @@ function App() {
         <EcoSystem />
         <MyTeam />
         <Ourcompany  />
-        <Video />
+        {/* <Video /> */}
         <Accordion />
         {/* <Whitepaper /> */}
         <Footer />

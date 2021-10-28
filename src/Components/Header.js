@@ -114,7 +114,7 @@ const Header = () =>{
                         <div className="flex items-center mx-2.5">
                             <div className="lg:pl-14">
                                 <h1 className="font-bold text-xl lg:text-6xl lg:w-4/5 text-white italic font-sans">Виртуал мөнгө хялбар боллоо</h1>
-                                <span className="font-light lg:w-2/5 text-white mt-5 hidden md:block"><strong><i>ИЛҮҮ ХЯЛБАР, ИЛҮҮ НАЙДВАРТАЙ</i></strong> Крипто зах зээлд хил хязгааргүй оролцох боломж</span>
+                                <span className="font-light lg:w-2/6 text-white mt-5 hidden md:block"><strong><i>ИЛҮҮ ХЯЛБАР, ИЛҮҮ НАЙДВАРТАЙ</i></strong> Крипто зах зээлд хил хязгааргүй оролцох боломж</span>
                             </div> 
                             <div className="mb-10 ">
                                 <img className="sm:hidden block animate-bounce" src={Coin} />

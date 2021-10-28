@@ -19,12 +19,14 @@ const Footer = () => {
 			</ul>
 			<ul className="text-gray-700 list-none p-0 font-thin flex flex-col text-left w-full">
 				<li className="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">Хамтрагч байгууллагууд</li>
-				<li><a href="#" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Grape City</a> </li>
-                <li><a href="#" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Diverse Solutions</a> </li>
-                <li><a href="#" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">ARD</a> </li>
-                <li><a href="#" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">DAX</a> </li>
-                <li><a href="#" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Complex</a> </li>
-                <li><a href="#" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Trade</a> </li>
+				<li><a href="https://www.grapecity.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Grape City</a> </li>
+                <li><a href="https://dsolutions.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Diverse Solutions</a> </li>
+                <li><a href="https://ardholdings.com/mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">ARD</a> </li>
+                <li><a href="https://dax.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">DAX</a> </li>
+                <li><a href="https://www.complex.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Complex</a> </li>
+                <li><a href="https://trade.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Trade</a> </li>
+				<li><a href="https://www.coinhub.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Coinhub</a> </li>
+				<li><a href="https://www.tngr.media/?fbclid=IwAR3f6icn-ZP4E2BluAvoeIEAs9kXV3Ala0woDLNAHJgjjJ-_6oCgg8IHXR8" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Tenger league</a> </li>
 			</ul>
 			
             
