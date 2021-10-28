@@ -22,7 +22,7 @@ const Accordion = () => {
                         </div>
                         <div className="group-focus:max-h-screen max-h-0  px-4 overflow-hidden ease duration-500">
                         <p className="p-2 text-gray-700 text-justify">
-                            Стэйблкойн нь валютын нөөцөөр баталгаажиж, үнэ цэнээ аргамжсан криптовалютын төрөл юм
+                            Стэйблкойн нь валютын нөөцөөр баталгаажиж, үнэ цэнээ аргамжсан криптовалютын төрөл юм.
                         </p>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ const Accordion = () => {
                         className="group-focus:max-h-screen max-h-0 px-4 overflow-hidden ease duration-500"
                         >
                         <p className="p-2 text-gray-700 text-justify">
-                            MONT нь Binance Smart Chain болон Ethereum блокчэйн сүлжээнд байршсан бөгөөд удалгүй Solana, Cardano зэрэг блокчэйнд нэвтрэх ажил хийгдэж байна
+                            MONT нь Binance Smart Chain болон Ethereum блокчэйн сүлжээнд байршсан бөгөөд удалгүй Solana, Cardano зэрэг блокчэйнд нэвтрэх ажил хийгдэж байна.
                         </p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ const Accordion = () => {
                         className="group-focus:max-h-screen max-h-0 px-4 overflow-hidden ease duration-500"
                         >
                         <p className="p-2 text-gray-700 text-justify">
-                            MONT нь ямагт Монгол төгрөгтэй 1:1 харьцах үнэ цэнтэй байх болно
+                            MONT нь ямагт Монгол төгрөгтэй 1:1 харьцах үнэ цэнтэй байх болно.
                         </p>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ const Accordion = () => {
                         className="group-focus:max-h-screen max-h-0 px-4 overflow-hidden ease duration-500"
                         >
                         <p className="p-2 text-gray-700 text-justify">
-                            Та MONT-ыг өөрийн хэрэглээний виртуал хөрөнгийн бирж дээр арилжиж авах боломжтой. Бид MONT-ыг дотоодын болон олон улсын биржүүдэд нэвтрүүлэхээр ажиллаж байна
+                            Та MONT-ыг өөрийн хэрэглээний виртуал хөрөнгийн бирж дээр арилжиж авах боломжтой. Бид MONT-ыг дотоодын болон олон улсын биржүүдэд нэвтрүүлэхээр ажиллаж байна.
                         </p>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ const Accordion = () => {
                         className="group-focus:max-h-screen max-h-0 px-4 overflow-hidden ease duration-500"
                         >
                         <p className="p-2 text-gray-700 text-justify">
-                            Та MONT-ыг өөрийн хэрэглээний бирж эсвэл хэтэвчээр дамжуулан шилжүүлэх боломжтой. Та шилжүүлэг хийхээсээ өмнө зөв сүлжээгээр (BEP-20, ERC-20, г.м) хийж байгаагаа дахин нягтлаарай.
+                            Та MONT-ыг өөрийн хэрэглээний бирж эсвэл хэтэвчээр дамжуулан шилжүүлэх боломжтой. Та шилжүүлэг хийхээсээ өмнө зөв сүлжээгээр (BEP-20, ERC-20, г.м) хийж байгаагаа дахин нягтлах хэрэгтэй.
                         </p>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ const Accordion = () => {
                         className="group-focus:max-h-screen max-h-0 px-4 overflow-hidden ease duration-500"
                         >
                         <p className="p-2 text-gray-700 text-justify">
-                            MONT нь Монгол иргэний хэрэглээнд хамгийн дөхөм, найдвартай, аюулгүй стэйблкойн юм. MONT-ын аюулгүй байдлыг Олон улсын блокчэйн аудитын компани болох Certik аудит хийсэн болно
+                            MONT нь Монгол иргэдийн хэрэглээнд хамгийн дөхөм, найдвартай бөгөөд аюулгүй бүтээгдсэн стэйблкойн юм. MONT-ын аюулгүй байдлыг Олон улсын блокчэйн аудитын компани болох Certik аудит хийж баталгаажуулсан болно.
                         </p>
                         </div>
                     </div>
