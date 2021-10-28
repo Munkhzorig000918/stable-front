@@ -12,17 +12,17 @@ const Ourcompany = () =>{
                     <div className="flex justify-evenly mx-2.5 space-x-5">
                         <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
                             
-                            <img src={GC} width="90px" />
+                            <img src={GC} width="150px" />
                             
                         </div>
                         <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
                             
-                            <img src={GC} width="90px" />
+                            <img src={GC} width="150px" />
                             
                         </div>
                         <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
                             
-                            <img src={GC} width="90px" />
+                            <img src={GC} width="150px" />
                             
                         </div>
                     </div>

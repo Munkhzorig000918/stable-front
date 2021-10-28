@@ -17,11 +17,11 @@ function App() {
         <Banner />
         <Feature />
         <EcoSystem />
-        <Whitepaper />
         <MyTeam />
         <Ourcompany />
         {/* <Video /> */}
         <Accordion />
+        <Whitepaper />
         <Footer />
     </div>
   );
