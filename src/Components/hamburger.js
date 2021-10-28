@@ -20,25 +20,28 @@ const Hamburger = () => {
                     <div className="z-20">
                         <ul className="z-20">
                             <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Нүүр</a>
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Нүүр</a>
                             </li>
                             <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#feature">Онцлого</a>
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#feature">Онцлого</a>
                             </li>
                             <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#service">Үйлчилгээ</a>
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#service">Үйлчилгээ</a>
                             </li>
                             <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#team">Төсөлийн баг</a>
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#team">Төсөлийн баг</a>
                             </li>
                             <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#company">Хамтрагч байгууллагууд</a>
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#company">Хамтрагч байгууллагууд</a>
                             </li>
                             <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#faq">Түгээмэл асуулт хариулт</a>
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#faq">Түгээмэл асуулт хариулт</a>
                             </li>
                             <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contact">Холбоо барих</a>
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contact">Холбоо барих</a>
+                            </li>
+                            <li className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="https://bscscan.com/token/0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4">BscScan</a>
                             </li>
                         </ul>
                     </div>
