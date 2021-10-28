@@ -44,7 +44,7 @@ const Hamburger = () => {
                     </div>
                     <div className="mt-auto z-20">
                         <div className="pt-6">
-                            <a className="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" target="_blank" href="whitepaper.pdf">White Paper</a>
+                            <a className="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" target="_blank" href="asd.pdf">White Paper</a>
                         </div>
                         <p className="my-4 text-xs text-center text-gray-400">
                             <span>Copyright © 2021</span>
