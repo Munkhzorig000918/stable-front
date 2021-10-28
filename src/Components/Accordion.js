@@ -13,7 +13,7 @@ const Accordion = () => {
           {({ open }) => (
             <>
               <Disclosure.Button className="flex justify-between w-full p-5 text-sm font-medium text-left rounded-lg hover:bg-gray-400 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span className="text-xl">Стэйблкойн гэж юу вэ?</span>
+                <span className="text-md lg:text-xl">Стэйблкойн гэж юу вэ?</span>
                 <BsChevronDown
                   className={`${
                     open ? 'transform rotate-180' : ''
@@ -30,7 +30,7 @@ const Accordion = () => {
           {({ open }) => (
             <>
               <Disclosure.Button className="flex justify-between w-full p-5 text-sm font-medium text-left rounded-lg hover:bg-gray-400 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span className="text-xl">MONT гэж юу вэ?</span>
+                <span className="text-md lg:text-xl">MONT гэж юу вэ?</span>
                 <BsChevronDown
                   className={`${
                     open ? 'transform rotate-180' : ''
@@ -47,7 +47,7 @@ const Accordion = () => {
           {({ open }) => (
             <>
               <Disclosure.Button className="flex justify-between w-full p-5 text-sm font-medium text-left rounded-lg hover:bg-gray-400 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span className="text-xl">MONT нь аль блокчэйн платформдбайршсан бэ?</span>
+                <span className="text-md lg:text-xl">MONT нь аль блокчэйн платформд байршсан бэ?</span>
                 <BsChevronDown
                   className={`${
                     open ? 'transform rotate-180' : ''
@@ -64,7 +64,7 @@ const Accordion = () => {
           {({ open }) => (
             <>
               <Disclosure.Button className="flex justify-between w-full p-5 text-sm font-medium text-left rounded-lg hover:bg-gray-400 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span className="text-xl">MONT нь ямар үнэ цэнтэй бэ?</span>
+                <span className="text-md lg:text-xl">MONT нь ямар үнэ цэнтэй бэ?</span>
                 <BsChevronDown
                   className={`${
                     open ? 'transform rotate-180' : ''
@@ -81,7 +81,7 @@ const Accordion = () => {
           {({ open }) => (
             <>
               <Disclosure.Button className="flex justify-between w-full p-5 text-sm font-medium text-left rounded-lg hover:bg-gray-400 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span className="text-xl">Хэрхэн MONT худалдаж авах вэ?</span>
+                <span className="text-md lg:text-xl">Хэрхэн MONT худалдаж авах вэ?</span>
                 <BsChevronDown
                   className={`${
                     open ? 'transform rotate-180' : ''
@@ -89,7 +89,7 @@ const Accordion = () => {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-md text-gray-700">
-                Та MONT-ыг өөрийн үйлчлүүлдэгвиртуал хөрөнгийн биржийн арилжаагааравах боломжтой. Бид MONT-ийг дотоод болон гадаадын олон биржид нэвтрүүлэхээр ажиллаж байна.
+                Та MONT-ыг өөрийн үйлчлүүлдэгвиртуал хөрөнгийн биржийн арилжаагааравах боломжтой. Бид MONT-ыг дотоод болон гадаадын олон биржид нэвтрүүлэхээр ажиллаж байна.
               </Disclosure.Panel>
             </>
           )}
@@ -98,7 +98,7 @@ const Accordion = () => {
           {({ open }) => (
             <>
               <Disclosure.Button className="flex justify-between w-full p-5 text-sm font-medium text-left rounded-lg hover:bg-gray-400 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span className="text-xl">Хэрхэн MONT-ийг шилжүүлэх вэ?</span>
+                <span className="text-md lg:text-xl">Хэрхэн MONT-ийг шилжүүлэх вэ?</span>
                 <BsChevronDown
                   className={`${
                     open ? 'transform rotate-180' : ''
@@ -115,7 +115,7 @@ const Accordion = () => {
           {({ open }) => (
             <>
               <Disclosure.Button className="flex justify-between w-full p-5 text-sm font-medium text-left rounded-lg hover:bg-gray-400 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span className="text-xl">Яагаад MONT гэж?</span>
+                <span className="text-md lg:text-xl">Яагаад MONT гэж?</span>
                 <BsChevronDown
                   className={`${
                     open ? 'transform rotate-180' : ''

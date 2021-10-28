@@ -13,9 +13,11 @@ const Footer = () => {
 		<div className="w-2/3 block sm:flex text-sm mt-6 lg:mt-0">
 			<ul className="text-gray-700 list-none p-0 font-thin flex flex-col text-left w-full">
 				<li className="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">Бүтээгдэхүүн</li>
-				<li><a href="#" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Онцлог</a></li>
-				<li><a href="#" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Төслийн баг</a></li>
-				<li><a href="#" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Түгээмэл асуулт</a></li>
+				<li><a href="#feature" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Онцлог</a></li>
+				<li><a href="#service" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Үйлчилгээ</a></li>
+				<li><a href="#team" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Төслийн баг</a></li>
+				<li><a href="#company" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Хамтрагч байгууллагууд</a></li>
+				<li><a href="#faq" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Түгээмэл асуулт</a></li>
 			</ul>
 			<ul className="text-gray-700 list-none p-0 font-thin flex flex-col text-left w-full">
 				<li className="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">Хамтрагч байгууллагууд</li>
@@ -33,15 +35,15 @@ const Footer = () => {
 			<div className="text-gray-700 flex flex-col w-full">
 				<div className="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">Холбоо барих</div>
 				<div className="flex pl-4 justify-start mt-2">
-					<a className="block flex items-center text-gray-300 hover:text-white mr-6 no-underline" target="_blank" href="https://www.facebook.com/">
+					<span className="block flex items-center text-gray-300 hover:text-white mr-6 no-underline">
 						<FaFacebook />
-					</a>
-					<a className="block flex items-center text-gray-300 hover:text-white mr-6 no-underline" target="_blank" href="https://www.instagram.com/">
+					</span>
+					<span className="block flex items-center text-gray-300 hover:text-white mr-6 no-underline">
 						<FaInstagram />
-					</a>
-					<a className="block flex items-center text-gray-300 hover:text-white mr-6 no-underline" target="_blank" href="https://twitter.com/">
+					</span>
+					<span className="block flex items-center text-gray-300 hover:text-white mr-6 no-underline">
 						<FaTwitter />
-					</a>
+					</span>
 					<a className="block flex items-center text-gray-300 hover:text-white no-underline" href="mailto:info@stablecoin.mn">
 						<FaMailBulk />
 					</a>

@@ -47,31 +47,31 @@ const Ourcompany = () =>{
                 </div>
                 <div className="container mx-auto">
                     <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-full flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-40 h-40 rounded-full flex flex-col justify-center items-center">
                             <img className='rounded-full w-3/6' src={GC} />
                         </div>
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-full flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-40 h-40 rounded-full flex flex-col justify-center items-center">
                             <img className='rounded-md w-3/6' src={DS} />
                         </div>
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-full flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-40 h-40 rounded-full flex flex-col justify-center items-center">
                             <img className='rounded-full w-3/6' src={Ard} />
                         </div>
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-full flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-40 h-40 rounded-full flex flex-col justify-center items-center">
                             <img className='rounded-full w-3/6' src={tenger} />
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 mt-5">
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-full flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-40 h-40 rounded-full flex flex-col justify-center items-center">
                             <img className='rounded-full w-3/6' src={Trade} />
                         </div>
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-full flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-40 h-40 rounded-full flex flex-col justify-center items-center">
                             <img className='rounded-full w-3/6' src={Complex} />
                         </div>
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-full flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-40 h-40 rounded-full flex flex-col justify-center items-center">
                             <img className='rounded-full w-3/6' src={dax} />
                         </div>
                       
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-full flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-40 h-40 rounded-full flex flex-col justify-center items-center">
                             <img className='rounded-full w-3/6' src={Coinhub} />
                         </div>
                     </div>
