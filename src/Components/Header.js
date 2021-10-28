@@ -110,7 +110,7 @@ const Header = () =>{
                     </li>
                     <li><a className="text-sm text-gray-400 hover:text-gray-500" target="_blank" href="https://bscscan.com/token/0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4">BscScan</a></li>
                 </ul>
-                <a className="hidden xl:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" target="_blank" href="asd.pdf">White paper</a>
+                <a className="hidden xl:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" target="_blank" href="whitepaper.pdf">White paper</a>
             </nav>
             <div className="z-50">
                 <Hamburger />
