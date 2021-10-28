@@ -61,7 +61,7 @@ const MyTeam = () => {
                             </div>
                             <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
                                 <img className="w-44 rounded-full" src={Od} />
-                                <h1 className="text-xl mt-5">Тулга</h1>
+                                <h1 className="text-xl mt-5">С.Тулга</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Үүсгэн байгуулагч)</p>
                                 <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Монгол DFAI Гүйцэтгэх захирал)</p>
                             </div>
