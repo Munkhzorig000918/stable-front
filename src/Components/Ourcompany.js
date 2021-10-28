@@ -39,30 +39,30 @@ const Ourcompany = () =>{
 
     return(
         <div className="w-full">
-            <div className="container mx-auto flex flex-col pb-10">
+            <div className="container mx-auto flex flex-col  pb-10">
                 <div className="mx-2.5 lg:pl-16">
                     <h1 className="font-bold text-3xl py-14" id='company'>Хамтрагч байгууллагууд</h1>
                 </div>
                 <div className="container mx-auto">
                     <div className="flex flex-col lg:flex lg:flex-row justify-around mx-2.5">
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-xl flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center">
                             <img className='rounded-md' src={GC} />
                         </div>
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-xl flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center">
                             <img className='rounded-md' src={DS} />
                         </div>
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-xl flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center">
                             <img className='rounded-md' src={Ard} />
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex lg:flex-row justify-around mx-2.5 mt-5">
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-xl flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center">
                             <img className='rounded-md' src={dax} />
                         </div>
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-xl flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center">
                             <img className='rounded-md' src={Complex} />
                         </div>
-                        <div className="bg-white shadow-xl mt-5 w-60 h-60 rounded-xl flex flex-col justify-center items-center">
+                        <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center">
                             <img className='rounded-md' src={tenger} />
                         </div>
                     </div>
