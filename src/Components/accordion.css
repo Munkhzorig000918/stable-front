@@ -255,14 +255,9 @@ main {
   .container {
     width: 100%;
   }
-  @media (min-width: 640px) {
+  @media (min-width: 1024px) {
     .container {
-      max-width: 640px;
-    }
-  }
-  @media (min-width: 768px) {
-    .container {
-      max-width: 768px;
+      max-width: 1024px;
     }
   }
   @media (min-width: 1024px) {
@@ -270,9 +265,14 @@ main {
       max-width: 1024px;
     }
   }
-  @media (min-width: 1280px) {
+  @media (min-width: 1024px) {
     .container {
-      max-width: 1280px;
+      max-width: 1024px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
     }
   }
   .bg-gray-100 {
@@ -452,14 +452,14 @@ main {
   .duration-500 {
     transition-duration: 0.5s;
   }
-  @media (min-width: 640px) {
+  @media (min-width: 1024px) {
     .sm\:container {
       width: 100%;
-      max-width: 640px;
+      max-width: 1024px;
     }
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
       .sm\:container {
-        max-width: 768px;
+        max-width: 1024px;
       }
     }
     @media (min-width: 1024px) {
@@ -467,24 +467,19 @@ main {
         max-width: 1024px;
       }
     }
-    @media (min-width: 1280px) {
+    @media (min-width: 1024px) {
       .sm\:container {
-        max-width: 1280px;
+        max-width: 1024px;
       }
     }
   }
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     .md\:container {
       width: 100%;
     }
-    @media (min-width: 640px) {
+    @media (min-width: 1024px) {
       .md\:container {
-        max-width: 640px;
-      }
-    }
-    @media (min-width: 768px) {
-      .md\:container {
-        max-width: 768px;
+        max-width: 1024px;
       }
     }
     @media (min-width: 1024px) {
@@ -492,9 +487,14 @@ main {
         max-width: 1024px;
       }
     }
-    @media (min-width: 1280px) {
+    @media (min-width: 1024px) {
       .md\:container {
-        max-width: 1280px;
+        max-width: 1024px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .md\:container {
+        max-width: 1024px;
       }
     }
   }
@@ -502,14 +502,9 @@ main {
     .lg\:container {
       width: 100%;
     }
-    @media (min-width: 640px) {
+    @media (min-width: 1024px) {
       .lg\:container {
-        max-width: 640px;
-      }
-    }
-    @media (min-width: 768px) {
-      .lg\:container {
-        max-width: 768px;
+        max-width: 1024px;
       }
     }
     @media (min-width: 1024px) {
@@ -517,24 +512,24 @@ main {
         max-width: 1024px;
       }
     }
-    @media (min-width: 1280px) {
+    @media (min-width: 1024px) {
       .lg\:container {
-        max-width: 1280px;
+        max-width: 1024px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .lg\:container {
+        max-width: 1024px;
       }
     }
   }
-  @media (min-width: 1280px) {
+  @media (min-width: 1024px) {
     .xl\:container {
       width: 100%;
     }
-    @media (min-width: 640px) {
+    @media (min-width: 1024px) {
       .xl\:container {
-        max-width: 640px;
-      }
-    }
-    @media (min-width: 768px) {
-      .xl\:container {
-        max-width: 768px;
+        max-width: 1024px;
       }
     }
     @media (min-width: 1024px) {
@@ -542,9 +537,14 @@ main {
         max-width: 1024px;
       }
     }
-    @media (min-width: 1280px) {
+    @media (min-width: 1024px) {
       .xl\:container {
-        max-width: 1280px;
+        max-width: 1024px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .xl\:container {
+        max-width: 1024px;
       }
     }
   }

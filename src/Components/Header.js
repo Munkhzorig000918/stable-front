@@ -57,7 +57,7 @@ const Header = () =>{
                 <a className="text-3xl font-bold leading-none text-white" href="#">
                     <img src={logo} className="w-10" />
                 </a>
-                <div className="lg:hidden">
+                <div className="xl:hidden">
                     <button className="navbar-burger flex items-center text-blue-600 p-3">
                         <svg className="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <title>Mobile menu</title>
@@ -65,7 +65,7 @@ const Header = () =>{
                         </svg>
                     </button>
                 </div>
-                <ul className="hidden fixed left-60 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+                <ul className="hidden fixed left-60 transform -translate-y-1/2 -translate-x-1/2 xl:mx-auto xl:flex xl:items-center xl:w-auto xl:space-x-6">
                     <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#">Нүүр</a></li>
                     <li className="text-gray-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">
@@ -104,17 +104,17 @@ const Header = () =>{
                     </li>
                     <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#contact">Холбоо барих</a></li>
                 </ul>
-                <a className="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" target="_blank" href="https://drive.google.com/file/d/1TvWMfj1RFzFOiw6PYEIkuxMjCGmgBYaj/view?usp=sharing">White paper</a>
+                <a className="hidden xl:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" target="_blank" href="https://drive.google.com/file/d/1TvWMfj1RFzFOiw6PYEIkuxMjCGmgBYaj/view?usp=sharing">White paper</a>
             </nav>
             <div className="z-50">
                 <Hamburger />
             </div>
-                <div className="w-full py-32 lg:py-48">
+                <div className="w-full py-32 xl:py-48">
                     <div className="container mx-auto">
                         <div className="flex items-center mx-2.5">
-                            <div className="lg:pl-14">
-                                <h1 className="font-bold text-xl lg:text-6xl lg:w-4/5 text-white italic font-sans">Виртуал мөнгө хялбар боллоо</h1>
-                                <span className="font-light lg:w-2/6 text-white mt-5 hidden md:block"><strong><i>ИЛҮҮ ХЯЛБАР, ИЛҮҮ НАЙДВАРТАЙ</i></strong> Крипто зах зээлд хил хязгааргүй оролцох боломж</span>
+                            <div className="xl:pl-14">
+                                <h1 className="font-bold text-xl xl:text-6xl xl:w-4/5 text-white italic font-sans">Виртуал мөнгө хялбар боллоо</h1>
+                                <span className="font-light xl:w-2/6 text-white mt-5 hidden sm:block"><strong className=" font-bold"><i>ИЛҮҮ ХЯЛБАР, ИЛҮҮ НАЙДВАРТАЙ</i></strong> Крипто зах зээлд хил хязгааргүй оролцох боломж</span>
                             </div> 
                             <div className="mb-10 ">
                                 <img className="sm:hidden block animate-bounce" src={Coin} />
