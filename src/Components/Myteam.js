@@ -16,31 +16,31 @@ const member = [
 
     <div className="container mx-auto mt-10">
         <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 mt-10">
-            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+            <div className="bg-white shadow-xl mt-5 w-80 h-96 rounded-xl flex flex-col justify-center items-center ">
                 <img className="w-44 rounded-full" src={Orgil} />
                 <h1 className="text-xl mt-5">О. Мөнх-Оргил</h1>
                 <p className="text-center mt-5 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Төсөлийн менежер)</p>
-                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(АРД ЭКС ХХК Бизнес хөгжлийн менежер)</p>
+                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(АРД ЭКС ХХК, Бизнес хөгжлийн менежер)</p>
             </div>
-            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+            <div className="bg-white shadow-xl mt-5 w-80 h-96 rounded-xl flex flex-col justify-center items-center ">
                 <img className="w-44 rounded-full" src={Chuky} />
                 <h1 className="text-xl mt-5">Д. Чадраабал</h1>
                 <p className="text-center mt-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Блокчэйн зөвлөх)</p>
-                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(АРД ЭКС ХХК Үйл ажилгаа хариуцсан захирал)</p>
+                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(АРД ЭКС ХХК, Үйл ажилгаа хариуцсан захирал)</p>
             </div>
-            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+            <div className="bg-white shadow-xl mt-5 w-80 h-96 rounded-xl flex flex-col justify-center items-center ">
                 <img className="w-44 rounded-full" src={Anhaa} />
                 <h1 className="text-xl mt-5">Д. Анхбаясгалан</h1>
                 <p className="text-center mt-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Блокчэйн зөвлөх)</p>
-                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(АРД ЭКС ХХК Тэхнологи хариуцсан захирал )</p>
+                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(АРД ЭКС ХХК, Тэхнологи хариуцсан захирал )</p>
             </div>
         </div>
         <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 mt-10">
-            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+            <div className="bg-white shadow-xl mt-5 w-80 h-96 rounded-xl flex flex-col justify-center items-center ">
                 <img className="w-44 rounded-full" src={Tseku} />
                 <h1 className="text-xl mt-5">Т. Бумцэнд</h1>
                 <p className="text-center mt-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(График дизайн)</p>
-                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(График дизайн, Дайверс Солюшн)</p>
+                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Дайверс Солюшн, График дизайн)</p>
             </div> 
         </div>
     </div>
@@ -59,23 +59,23 @@ const MyTeam = () => {
                 <div className="container mx-auto">
                     <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">
                         
-                            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                            <div className="bg-white shadow-xl mt-5 w-80 h-96 rounded-xl flex flex-col justify-center items-center ">
                                 <img className="w-44 rounded-full" src={Eegii} />
                                 <h1 className="text-xl mt-5">М.Энх-Амгалан</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Блокчэйн зөвлөх)</p>
-                                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Гүйцэтгэх захирал, Дайверс Солюшн)</p>
+                                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Дайверс Солюшн ,Гүйцэтгэх захирал)</p>
                             </div>
-                            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                            <div className="bg-white shadow-xl mt-5 w-80 h-96 rounded-xl flex flex-col justify-center items-center ">
                                 <img className="w-44 rounded-full" src={Tulga} />
                                 <h1 className="text-xl mt-5">С.Тулга</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Үүсгэн байгуулагч)</p>
-                                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Монгол DFAI Гүйцэтгэх захирал)</p>
+                                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Монгол DFAI, Гүйцэтгэх захирал)</p>
                             </div>
-                            <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-xl flex flex-col justify-center items-center ">
+                            <div className="bg-white shadow-xl mt-5 w-80 h-96 rounded-xl flex flex-col justify-center items-center ">
                                 <img className="w-44 rounded-full" src={Od} />
                                 <h1 className="text-xl mt-5">Г.Мөнх-Од</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Блокчэйн хөгжүүлэгч)</p>
-                                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Тэхнологи хариуцсан захирал, Дайверс Солюшн)</p>
+                                <p className="text-center mt-2 pb-2 font-extrabold lg:font-extralight text-xs lg:text-base text-gray-500">(Дайверс Солюшн, Тэхнологи хариуцсан захирал)</p>
                             </div>
                         </div>
                 </div>

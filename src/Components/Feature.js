@@ -12,7 +12,7 @@ const Feature = () => {
                     </div>
                     <div id="feature" className="flex flex-col justify-center mx-2.5 lg:w-2/4 lg:ml-16">
                         <h1 className=" font-extrabold text-xl lg:text-2xl">Нээлттэй</h1>
-                        <p className="font-light text-gray-600 text-justify mt-5">MONT-ын үнэ цэнийг Монгол төгрөгөөр баталгаажуулж байна. MONT-ийг баталгаажуулж буй нөөцийг тогтмол аудит хийж олон нийтэд танилцуулах болно</p>
+                        <p className="font-light text-gray-600 text-justify mt-5">MONT-ын үнэ цэнийг Монгол төгрөгөөр баталгаажуулж байна. MONT-ыг баталгаажуулж буй нөөцийг тогтмол аудит хийж олон нийтэд танилцуулах болно</p>
                         <h1 className="font-extrabold text-xl lg:text-2xl mt-10">Дэлхийн хаанаас ч, хэзээ ч</h1>
                         <p className="font-light text-gray-600 text-justify mt-5">MONT нь Ethereum, Binance Smart Chain, Solana, Cardano болон бусад блокчэйн платформууд дээр байрладаг. Тиймээс та дэлхийн хаанаас ч, хэзээ ч өөрийн хүссэн сүлжээнд койноо хадгалж, шилжүүлж, арилжаанд оролцох боломжтой юм</p>
                     </div>
