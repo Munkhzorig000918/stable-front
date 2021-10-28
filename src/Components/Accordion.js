@@ -7,7 +7,7 @@ import {BsChevronDown, BsChevronUp} from 'react-icons/bs';
 
 const Accordion = () => {
     return(
-    <div className="w-full px-4 pt-16 pb-16">
+    <div id="faq" className="w-full px-4 pt-16 pb-16">
       <div className="container p-2 mx-auto rounded-2xl">
         <Disclosure>
           {({ open }) => (
