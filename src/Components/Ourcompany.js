@@ -26,6 +26,23 @@ const Ourcompany = () =>{
                             
                         </div>
                     </div>
+                    <div className="flex justify-evenly mx-2.5 space-x-5 mt-5">
+                        <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
+                            
+                            <img src={GC} width="150px" />
+                            
+                        </div>
+                        <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
+                            
+                            <img src={GC} width="150px" />
+                            
+                        </div>
+                        <div className="bg-white shadow-xl rounded-xl p-10 flex flex-col justify-center items-center">
+                            
+                            <img src={GC} width="150px" />
+                            
+                        </div>
+                    </div>
                 </div>
                 {/* <div className="flex items-center justify-center py-10">
                     <div className="bg-black p-5 rounded-lg hover:bg-blue-400 transition-all duration-200 cursor-pointer">

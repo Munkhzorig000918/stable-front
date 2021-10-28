@@ -13,7 +13,7 @@ const Footer = () => {
                         <a href="#"><img className="w-20" src={logo} /></a>
                     </div>
                     <div className="">
-                        <div className="flex flex-col justify-center mt-5 ml-4">
+                        <div className="flex flex-col justify-center mt-5 ml-36">
                             <div id="contact" className="text-white">
                                 <p>Холбоо барих</p>
                             </div>
