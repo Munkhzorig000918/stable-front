@@ -10,7 +10,7 @@ const Feature = () => {
                     <div className="flex items-center justify-center mt-2">
                         <img src={video} width="300px" className="" />
                     </div>
-                    <div className="flex flex-col mx-2.5 lg:w-2/4 lg:ml-16">
+                    <div id="feature" className="flex flex-col mx-2.5 lg:w-2/4 lg:ml-16">
                         <h1 className=" font-extrabold text-xl lg:text-2xl">Дэлхийн крипто зах зээлд нэвтрэх боломж</h1>
                         <p className="font-light text-gray-600 text-justify mt-5">Даяарчлалын давлагаа дэлхий дахиныг нөмөрсөн мэдээллийн шинэ эрин үед виртуал хөрөнгийн зах зээл хурдацтай өссөөр байна. MONT нь крипто зах зээлд идэвхтэй оролцоход ашиглах хамгийн таатай хэрэгсэл.</p>
                         <h1 className="font-extrabold text-xl lg:text-2xl mt-10">Дэлхийн хаана ч, хэзээ ч</h1>

@@ -12,7 +12,7 @@ import Whitepaper from "./Components/Whitepaper";
 
 function App() {
   return (
-    <div className=" overflow-x-hidden bg-dax-gray">
+    <div className=" overflow-x-hidden bg-dax-gray overscroll-contain">
         <Header />
         <Banner />
         <Feature />

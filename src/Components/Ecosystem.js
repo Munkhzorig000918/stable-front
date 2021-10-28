@@ -4,7 +4,7 @@ import bg3 from "../assets/bg2.png"
 const EcoSystem = () => {
     return(
         <div className="w-full pt-10 pb-10 lg:py-60" style={{ backgroundImage: `url(${bg3})` , backgroundRepeat: "no-repeat", backgroundSize: "2000px 504px"}}>
-            <div className="flex justify-center items-center flex-col">
+            <div id="service" className="flex justify-center items-center flex-col">
                 <div className="">
                     <h1 className="text-white text-center mx-0.5 text-3xl lg:text-5xl">MONT үнийн савалгаагүй.</h1>
                 </div>

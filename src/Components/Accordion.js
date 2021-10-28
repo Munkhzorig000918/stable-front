@@ -8,7 +8,7 @@ const Accordion = () => {
         <div>
             <div className="container mx-auto py-28" style={{backgroundImage: `url(${Bubble})`}}>
                 <div className="">
-                    <h1 className="text-center font-bold text-4xl">Түгээмэл асуулт хариулт</h1>
+                    <h1 id="faq" className="text-center font-bold text-4xl">Түгээмэл асуулт хариулт</h1>
                 </div>
                 <div className="m-8 rounded overflow-hidden">
                     <div className="group outline-none accordion-section" tabindex="1">

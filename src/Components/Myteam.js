@@ -7,7 +7,7 @@ const MyTeam = () => {
         <div className="w-full" style={{ backgroundImage: `url(${Bubble})` }}>
             <div className="container mx-auto flex flex-col">
                 <div className="mx-2.5 lg:pl-16">
-                    <h1 className="font-bold text-3xl py-14">Төсөлийн баг</h1>
+                    <h1 id="team" className="font-bold text-3xl py-14">Төсөлийн баг</h1>
                 </div>
                 <div className="container mx-auto">
                     <div className="flex justify-around mx-2.5 space-x-5">

@@ -13,7 +13,7 @@ const Footer = () => {
                     </div>
                     <div className="mx-2.5 mt-5">
                         <div className="flex flex-col justify-center">
-                            <div className="text-white">
+                            <div id="contact" className="text-white">
                                 <p>Холбоо барих</p>
                             </div>
                             <div className="text-white">
