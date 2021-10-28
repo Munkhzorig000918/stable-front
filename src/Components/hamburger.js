@@ -29,7 +29,7 @@ const Hamburger = () => {
                                 <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#service">Үйлчилгээ</a>
                             </li>
                             <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#team">Төсөлийн баг</a>
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#team">Төслийн баг</a>
                             </li>
                             <li className="mb-1">
                                 <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#company">Хамтрагч байгууллагууд</a>
