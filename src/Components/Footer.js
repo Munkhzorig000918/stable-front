@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="container mx-auto py-10">
                 <div className="flex flex-col lg:flex lg:flex-row lg:justify-between">
                     <div className=" flex items-center justify-center">
-                        <img className="w-20" src={logo} />
+                        <a href="#"><img className="w-20" src={logo} /></a>
                     </div>
                     <div className="">
                         <div className="flex flex-col justify-center mt-5 ml-4">
