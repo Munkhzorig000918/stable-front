@@ -3,6 +3,8 @@ import { FaFacebook ,FaTwitter } from "react-icons/fa"
 import { FaInstagram, FaMailBulk } from "react-icons/fa"
 // import { FaFacebook } from "react-icons/fa";
 import logo from "../assets/logo.png"
+import Certik from "../assets/certik.png"
+
 
 const Footer = () => {
     return( 
@@ -47,6 +49,13 @@ const Footer = () => {
 					<a className="block flex items-center text-gray-300 hover:text-white no-underline" href="mailto:info@stablecoin.mn">
 						<FaMailBulk />
 					</a>
+				</div>
+				<div className="flex flex-col pl-4 items-center justify-start mt-10">
+					<img src={Certik} />
+					<span className="block flex text-md items-center text-xl text-gray-300 hover:text-white mr-6 no-underline">
+						Audited by CertiK
+					</span>
+					
 				</div>
 			</div>
 		</div>
