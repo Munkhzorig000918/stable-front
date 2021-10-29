@@ -9,6 +9,7 @@ const Accordion = () => {
     return(
     <div id="faq" className="w-full px-4 pt-16 pb-16">
       <div className="container p-2 mx-auto rounded-2xl">
+          <h1 className="font-bold md:text-3xl mb-10 text-lg">Түгээмэл асуулт хариулт</h1>
         <Disclosure>
           {({ open }) => (
             <>
