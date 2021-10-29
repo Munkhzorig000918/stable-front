@@ -29,7 +29,7 @@ const Footer = () => {
                 <li><a href="https://dax.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Dax.mn</a> </li>
                 <li><a href="https://www.complex.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Complex.mn</a> </li>
                 <li><a href="https://trade.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Trade.mn</a> </li>
-				<li><a href="https://www.coinhub.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Coinhub.mn</a> </li>
+				{/* <li><a href="https://www.coinhub.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Coinhub.mn</a> </li> */}
 				<li><a href="https://www.tngr.media/?fbclid=IwAR3f6icn-ZP4E2BluAvoeIEAs9kXV3Ala0woDLNAHJgjjJ-_6oCgg8IHXR8" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Tenger League Media Group</a> </li>
 			</ul>
 			

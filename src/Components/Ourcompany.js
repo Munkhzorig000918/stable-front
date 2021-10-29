@@ -60,7 +60,7 @@ const Ourcompany = () =>{
                             <img className='rounded-full w-full' src={tenger} />
                         </div>
                     </div>
-                    <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 mt-5">
+                    <div className="flex flex-col lg:flex lg:flex-row justify-evenly items-center mx-2.5 mt-5">
                         <div className="bg-white shadow-xl mt-5 w-40 h-40 rounded-full flex flex-col justify-center items-center">
                             <img className='rounded-full w-full' src={Trade} />
                         </div>
@@ -69,10 +69,6 @@ const Ourcompany = () =>{
                         </div>
                         <div className="bg-white shadow-xl mt-5 w-40 h-40 rounded-full flex flex-col justify-center items-center">
                             <img className='rounded-full w-full' src={dax} />
-                        </div>
-                      
-                        <div className="bg-white shadow-xl mt-5 w-40 h-40 rounded-full flex flex-col justify-center items-center">
-                            <img className='rounded-full w-full' src={Coinhub} />
                         </div>
                     </div>
                 </div>
