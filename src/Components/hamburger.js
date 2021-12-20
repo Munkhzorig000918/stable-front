@@ -1,51 +1,81 @@
-import React from "react";
-import './underline.css';
-import Logo from '../assets/logo.png'
+import React, { useState } from 'react';
+import { Trans, useTranslation } from "react-i18next";
+import { FaTimes, FaAngleDown, FaAlignJustify } from "react-icons/fa";
 
-const Hamburger = () => {
-    return(
-        <div className="navbar-menu relative z-20 hidden">
-                <div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-                <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto z-20">
-                    <div className="flex items-center mb-8 z-20">
-                        <a className="mr-auto text-3xl font-bold leading-none text-black" href="#">
-                            <img className="w-10" src={Logo} />
-                        </a>
-                        <button className="navbar-close z-20">
-                            <svg className="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                            </svg>
+export default function Hamburger() {
+
+    const [navOpen, setNavOpen] = useState(false);
+    
+    const { t, i18n } = useTranslation();
+    
+    const handleToggle = () => {
+        setNavOpen(!navOpen);
+    }
+
+    const changeLanguage = (language) => {
+        i18n.changeLanguage(language);
+    };
+
+    return (
+        <>
+            <div className=''>
+                <div className="relative flex items-center justify-between">
+                    <div className="lg:hidden flex space-x-3">
+                        <button onClick={handleToggle} className="flex items-center ">
+                            <FaAlignJustify className="text-white w-7 h-7" />
                         </button>
                     </div>
-                    <div className="z-20">
+                </div>
+                <div className="navbar-menu">
+                    <nav
+                        className={`z-50 fixed top-0 bg-white right-0 bottom-0 flex flex-col w-full max-w-sm py-6 px-6 bg-dax-blue border-r overflow-y-auto  ${
+                            navOpen
+                                ? 'fixed opacity-100 transition-all duration-200 ease-in '
+                                : 'fixed opacity-0 transition-all duration-200 ease-in '
+                        }`}>
+                        <div className={'flex items-center justify-between'}>
+                            <div className=""></div>
+                            <button onClick={handleToggle} className="navbar-close">
+                                <FaTimes className="h-7 w-7 text-dax-grey" />
+                            </button>
+                        </div>
+                        <div className="">
+                            
                         <ul className="z-20">
-                            <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Нүүр</a>
+                            <li onClick={handleToggle} className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">{t('Home')}</a>
                             </li>
-                            <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#feature">Онцлог</a>
+                            <li onClick={handleToggle} className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#feature">{t('Benefit')}</a>
                             </li>
-                            <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#service">Үйлчилгээ</a>
+                            <li onClick={handleToggle} className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#service">{t('Service')}</a>
                             </li>
-                            <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#team">Төслийн баг</a>
+                            <li onClick={handleToggle} className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#team">{t('ProjectTeam')}</a>
                             </li>
-                            <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#company">Хамтрагч байгууллагууд</a>
+                            <li onClick={handleToggle} className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#company">{t('Partners')}</a>
                             </li>
-                            <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#faq">Түгээмэл асуулт хариулт</a>
+                            <li onClick={handleToggle} className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#faq">{t('FAQ')}</a>
                             </li>
-                            <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contact">Холбоо барих</a>
+                            <li onClick={handleToggle} className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contact">{t('ContactUs')}</a>
                             </li>
-                            <li className="mb-1">
+                            <li onClick={() => changeLanguage("mn")} className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contact">{t('Mongolia')}</a>
+                            </li>
+                            <li onClick={() => changeLanguage("en")} className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contact">{t('English')}</a>
+                            </li>
+                            <li onClick={handleToggle} className="mb-1">
                                 <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="https://bscscan.com/token/0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4">BscScan</a>
                             </li>
+                            
                         </ul>
-                    </div>
-                    <div className="mt-auto z-20">
+                        </div>
+                        <div className="mt-auto z-20">
                         <div className="pt-6">
                             <a className="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" target="_blank" href="whitepaper.pdf">White Paper</a>
                         </div>
@@ -53,9 +83,9 @@ const Hamburger = () => {
                             <span>Copyright © 2021</span>
                         </p>
                     </div>
-                </nav>
+                    </nav>
+                </div>
             </div>
-    )
+        </>
+    );
 }
-
-export default Hamburger;

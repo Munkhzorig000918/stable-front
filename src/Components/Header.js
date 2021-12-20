@@ -10,55 +10,9 @@ import i18n from "../i18next";
 import { Fragment, useEffect, useRef, useState } from 'react'
 import {FaAngleDown} from 'react-icons/fa'
 import { Menu, Transition } from '@headlessui/react'
-
-
-
-document.addEventListener('DOMContentLoaded', function() {
-    // open
-    const burger = document.querySelectorAll('.navbar-burger');
-    const menu = document.querySelectorAll('.navbar-menu');
-
-    if (burger.length && menu.length) {
-        for (var i = 0; i < burger.length; i++) {
-            burger[i].addEventListener('click', function() {
-                for (var j = 0; j < menu.length; j++) {
-                    menu[j].classList.toggle('hidden');
-                }
-            });
-        }
-    }
-
-    // close
-    const close = document.querySelectorAll('.navbar-close');
-    const backdrop = document.querySelectorAll('.navbar-backdrop');
-
-    if (close.length) {
-        for (var i = 0; i < close.length; i++) {
-            close[i].addEventListener('click', function() {
-                for (var j = 0; j < menu.length; j++) {
-                    menu[j].classList.toggle('hidden');
-                }
-            });
-        }
-    }
-
-    //asd
-
-    if (backdrop.length) {
-        for (var i = 0; i < backdrop.length; i++) {
-            backdrop[i].addEventListener('click', function() {
-                for (var j = 0; j < menu.length; j++) {
-                    menu[j].classList.toggle('hidden');
-                }
-            });
-        }
-    }
-});
-
-
+import { FaTimes, FaAlignJustify } from "react-icons/fa";
 
 const Header = () =>{
-    
 
     function EditInactiveIcon(props) {
         return (
@@ -297,14 +251,16 @@ const Header = () =>{
                 <a className="text-3xl font-bold leading-none text-white" href="#">
                     <img src={logo} className="w-10" />
                 </a>
-                <div className="xl:hidden">
-                    <button className="navbar-burger flex items-center text-blue-600 p-3">
-                        <svg className="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <title>Mobile menu</title>
-                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-                        </svg>
-                    </button>
+                <div className="block xl:hidden">
+                  <div className="relative flex items-center justify-between">
+                      <div className="lg:hidden flex space-x-3">
+                          <button className="flex items-center ">
+                              <FaAlignJustify className="text-white w-7 h-7" />
+                          </button>
+                      </div>
+                  </div>
                 </div>
+                
                 <ul className="hidden fixed left-32 transform -translate-y-1/2 -translate-x-1/2 xl:mx-auto xl:flex xl:items-center xl:w-auto xl:space-x-4">
                     <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#">{t('Home')}</a></li>
                     <li className="text-gray-300">
@@ -337,7 +293,7 @@ const Header = () =>{
                     <li><a className="text-sm text-gray-400 hover:text-gray-500" target="_blank" href="https://bscscan.com/token/0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4">BscScan</a></li>
                    
                 </ul>
-                <div className="w-56">
+                <div className="w-56 hidden xl:block">
                     <Menu as="div" className="relative inline-block text-left">
                         <div>
                         <Menu.Button className="inline-flex justify-center items-center w-full px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
@@ -402,9 +358,9 @@ const Header = () =>{
                     </Menu>
                 </div>
                 </nav>
-            <div className="z-50">
+            
                 <Hamburger />
-            </div>
+            
                 <div className="w-full py-32 xl:py-64">
                     <div className="container mx-auto">
                         <div className="flex items-center mx-2.5">
