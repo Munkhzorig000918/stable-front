@@ -8,9 +8,10 @@ import Footer from "./Components/Footer";
 import Accordion from "./Components/Accordion";
 import Ourcompany from "./Components/Ourcompany";
 import Whitepaper from "./Components/Whitepaper";
-
+import './i18next'
 
 function App() {
+  
   return (
     <div className=" overflow-x-hidden bg-dax-gray overscroll-contain">
         <Header />
