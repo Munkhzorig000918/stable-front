@@ -86,23 +86,23 @@ const Header = () =>{
                     <li className="text-gray-300">
                         
                     </li>
-                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#service">Үйлчилгээ</a></li>
+                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#service">{t('Service')}</a></li>
                     <li className="text-gray-300">
                         
                     </li>
-                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#team">Төслийн баг</a></li>
+                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#team">{t('ProjectTeam')}</a></li>
                     <li className="text-gray-300">
                         
                     </li>
-                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#company">Хамтрагч байгууллагууд</a></li>
+                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#company">{t('Partners')}</a></li>
                     <li className="text-gray-300">
                         
                     </li>
-                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#faq">Түгээмэл асуулт хариулт</a></li>
+                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#faq">{t('FAQ')}</a></li>
                     <li className="text-gray-300">
                         
                     </li>
-                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#contact">Холбоо барих</a></li>
+                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#contact">{t('ContactUs')}</a></li>
                     <li className="text-gray-300">
                         
                     </li>
@@ -122,8 +122,8 @@ const Header = () =>{
                     <div className="container mx-auto">
                         <div className="flex items-center mx-2.5">
                             <div className="xl:pl-14">
-                                <h1 className="font-bold text-xl xl:text-6xl xl:w-4/5 text-white italic font-sans">Виртуал мөнгө хялбар боллоо</h1>
-                                <span className="font-light xl:w-2/6 text-white mt-5 hidden sm:block"><strong className=" font-bold"><i>ИЛҮҮ ХЯЛБАР, ИЛҮҮ НАЙДВАРТАЙ</i></strong> Крипто зах зээлд хил хязгааргүй оролцох боломж</span>
+                                <h1 className="font-bold text-xl xl:text-6xl xl:w-4/5 text-white italic font-sans">{t('VirtualMoney')}</h1>
+                                <span className="font-light xl:w-2/6 text-white mt-5 hidden sm:block"><strong className=" font-bold"><i>{t('MoreSimple')}</i></strong> {t('Opportunity')}</span>
                             </div> 
                             <div className="mb-10 ">
                                 <img className="sm:hidden block animate-bounce" src={Coin} />

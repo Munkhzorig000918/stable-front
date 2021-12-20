@@ -4,9 +4,12 @@ import { FaInstagram, FaMailBulk } from "react-icons/fa"
 // import { FaFacebook } from "react-icons/fa";
 import logo from "../assets/logo.png"
 import Certik from "../assets/certik.png"
-
+import { Trans, useTranslation } from "react-i18next";
 
 const Footer = () => {
+
+	const { t, i18n } = useTranslation();
+
     return( 
         
      <div id="contact" className="bg-gray-900 text-white pt-12 pb-8 px-4">
@@ -14,15 +17,15 @@ const Footer = () => {
 		<a href="#" className="block mr-4 w-1/3"><img className="w-40" src={logo} /></a>
 		<div className="w-2/3 block sm:flex text-sm mt-6 lg:mt-0">
 			<ul className="text-gray-700 list-none p-0 font-thin flex flex-col text-left w-full">
-				<li className="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">Бүтээгдэхүүн</li>
-				<li><a href="#feature" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Онцлог</a></li>
-				<li><a href="#service" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Үйлчилгээ</a></li>
-				<li><a href="#team" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Төслийн баг</a></li>
-				<li><a href="#company" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Хамтрагч байгууллагууд</a></li>
-				<li><a href="#faq" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Түгээмэл асуулт</a></li>
+				<li className="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">{('Product')}</li>
+				<li><a href="#feature" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">{t('Benefit')}</a></li>
+				<li><a href="#service" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">{t('Service')}</a></li>
+				<li><a href="#team" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">{t('ProjectTeam')}</a></li>
+				<li><a href="#company" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">{t('Partners')}</a></li>
+				<li><a href="#faq" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">{t('FAQ')}</a></li>
 			</ul>
 			<ul className="text-gray-700 list-none p-0 font-thin flex flex-col text-left w-full">
-				<li className="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">Хамтрагч байгууллагууд</li>
+				<li className="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">{t('Partners')}</li>
 				<li><a href="https://www.grapecity.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">GrapeCity Mongolia LLC</a> </li>
                 <li><a href="https://dsolutions.mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Diverse Solutions LLC</a> </li>
                 <li><a href="https://ardholdings.com/mn/" target="_blank" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Ard Financial Group</a> </li>
@@ -35,7 +38,7 @@ const Footer = () => {
 			
             
 			<div className="text-gray-700 flex flex-col w-full">
-				<div className="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">Холбоо барих</div>
+				<div className="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">{t('ContactUs')}</div>
 				<div className="flex pl-4 justify-start mt-2">
 					<span className="block flex items-center text-gray-300 hover:text-white mr-6 no-underline">
 						<FaFacebook />

@@ -7,43 +7,19 @@ import DS from '../assets/ds.jpg'
 import Ard from '../assets/ARd.png'
 import dax from '../assets/dax.jpeg'
 import tenger from '../assets/tenger.jpeg'
+import { Trans, useTranslation } from "react-i18next";
 
-// const company = [
-//     <div className="container mx-auto">
-//         <div className="flex flex-col lg:flex lg:flex-row justify-around mx-2.5">
-//             <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-full flex flex-col justify-center items-center">
-//                 <img className='rounded-full' src={GC} />
-//             </div>
-//             <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-full flex flex-col justify-center items-center">
-//                 <img className='rounded-full' src={DS} />
-//             </div>
-//             <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-full flex flex-col justify-center items-center">
-//                 <img className='rounded-full' src={Ard} />
-//             </div>
-//         </div>
-//         <div className="flex flex-col lg:flex lg:flex-row justify-around mx-2.5 mt-5">
-//             <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-full flex flex-col justify-center items-center">
-//                 <img className='rounded-full' src={dax} />
-//             </div>
-//             <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-full flex flex-col justify-center items-center">
-//                 <img className='rounded-full' src={Complex} />
-//             </div>
-//             <div className="bg-white shadow-xl mt-5 w-80 h-80 rounded-full flex flex-col justify-center items-center">
-//                 <img className='rounded-full' src={tenger} />
-//             </div>
-//         </div>
-//     </div>
-// ]
 
 const Ourcompany = () =>{
 
     const [showMore, setShowMore] = useState(false);
+    const { t, i18n } = useTranslation();
 
     return(
         <div className="w-full">
             <div className="container mx-auto flex flex-col justify-center items-center  pb-10">
                 <div className="mx-2.5 lg:pl-16">
-                    <h1 className="font-bold text-3xl py-14" id='company'>Хамтрагч байгууллагууд</h1>
+                    <h1 className="font-bold text-3xl py-14" id='company'>{t('Partners')}</h1>
                 </div>
                 <div className="container mx-auto">
                     <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">
