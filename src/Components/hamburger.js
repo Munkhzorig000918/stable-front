@@ -28,7 +28,7 @@ export default function Hamburger() {
                 </div>
                 <div className="navbar-menu">
                     <nav
-                        className={`z-50 fixed top-0 bg-white right-0 bottom-0 flex flex-col w-full max-w-sm py-6 px-6 bg-dax-blue border-r overflow-y-auto  ${
+                        className={` z-40 fixed top-0 bg-white right-0 bottom-0 flex flex-col w-full max-w-sm py-6 px-6 bg-dax-blue border-r overflow-y-auto  ${
                             navOpen
                                 ? 'fixed opacity-100 transition-all duration-200 ease-in '
                                 : 'fixed opacity-0 transition-all duration-200 ease-in '
@@ -64,10 +64,10 @@ export default function Hamburger() {
                                 <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contact">{t('ContactUs')}</a>
                             </li>
                             <li onClick={() => changeLanguage("mn")} className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contact">{t('Mongolia')}</a>
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded cursor-pointer">{t('Mongolia')}</a>
                             </li>
                             <li onClick={() => changeLanguage("en")} className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contact">{t('English')}</a>
+                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded cursor-pointer">{t('English')}</a>
                             </li>
                             <li onClick={handleToggle} className="mb-1">
                                 <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="https://bscscan.com/token/0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4">BscScan</a>

@@ -291,10 +291,9 @@ const Header = () =>{
                         
                     </li>
                     <li><a className="text-sm text-gray-400 hover:text-gray-500" target="_blank" href="https://bscscan.com/token/0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4">BscScan</a></li>
-                   
-                </ul>
-                <div className="w-56 hidden xl:block">
-                    <Menu as="div" className="relative inline-block text-left">
+                   <li>
+                   <div className="w-56 hidden xl:block">
+                    <Menu as="div" className="relative inline-block text-left ">
                         <div>
                         <Menu.Button className="inline-flex justify-center items-center w-full px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
                             {t('More')}
@@ -357,6 +356,9 @@ const Header = () =>{
                         </Transition>
                     </Menu>
                 </div>
+                   </li>
+                </ul>
+                
                 </nav>
             
                 <Hamburger />
