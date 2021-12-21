@@ -61,12 +61,7 @@ export default function Hamburger() {
                                 <li onClick={handleToggle} className="mb-1">
                                     <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#contact">{t('ContactUs')}</a>
                                 </li>
-                                <li onClick={() => changeLanguage("mn")} className="mb-1">
-                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded cursor-pointer">{t('Mongolia')}</a>
-                                </li>
-                                <li onClick={() => changeLanguage("en")} className="mb-1">
-                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded cursor-pointer">{t('English')}</a>
-                                </li>
+                                
                                 <li onClick={handleToggle} className="mb-1">
                                     <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="https://bscscan.com/token/0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4">BscScan</a>
                                 </li>
