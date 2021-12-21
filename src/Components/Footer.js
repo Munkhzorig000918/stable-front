@@ -17,7 +17,7 @@ const Footer = () => {
 		<a href="#" className="block mr-4 w-1/3"><img className="w-40" src={logo} /></a>
 		<div className="w-2/3 block sm:flex text-sm mt-6 lg:mt-0">
 			<ul className="text-gray-700 list-none p-0 font-thin flex flex-col text-left w-full">
-				<li className="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">{('Product')}</li>
+				<li className="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">{t('Product')}</li>
 				<li><a href="#feature" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">{t('Benefit')}</a></li>
 				<li><a href="#service" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">{t('Service')}</a></li>
 				<li><a href="#team" className="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">{t('ProjectTeam')}</a></li>
