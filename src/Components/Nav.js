@@ -29,7 +29,7 @@ const Nav = () => {
                   <a href="#feature" className="text-white">{t('Benefit')}</a>
                 </li>
                 <li>
-                  <a href="#service" className="text-white">{t('Services')}</a>
+                  <a href="#service" className="text-white">{t('Service')}</a>
                 </li>
                 <li>
                   <a href="#team" className="text-white">{t('ProjectTeam')}</a>
