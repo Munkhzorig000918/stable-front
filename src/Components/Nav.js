@@ -53,8 +53,8 @@ const Nav = () => {
               <a className=' w-24 text-center rounded-lg flex items-center justify-center h-7 bg-blue-500' href='/whitepaper.pdf' target='_blank'>
                 WhitePaper
               </a>
-              <h1 className=' cursor-pointer' onClick={() => changeLanguage("mn")}>MN</h1>
-              <h1 className=' cursor-pointer' onClick={() => changeLanguage("en")}>EN</h1>
+              <h1 className=' cursor-pointer bg-blue-500 hover:text-blue-200 p-2 rounded-lg' onClick={() => changeLanguage("mn")}>MN</h1>
+              <h1 className=' cursor-pointer bg-blue-500 hover:text-blue-200 p-2 rounded-lg' onClick={() => changeLanguage("en")}>EN</h1>
               <Hamburger />
             </div>
           </div>
