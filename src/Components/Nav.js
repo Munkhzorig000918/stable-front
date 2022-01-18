@@ -44,7 +44,7 @@ const Nav = () => {
                   <a href="#contact" className="text-white">{t('ContactUs')}</a>
                 </li>
                 <li>
-                  <a href="https://bscscan.com/token/0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4" target='_blank' className="text-white">{t('BsScan')}</a>
+                  <a href="https://bscscan.com/token/0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4" target='_blank' className="text-white">{t('BscScan')}</a>
                 </li>
               </ul>
             </div>
