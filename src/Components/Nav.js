@@ -50,11 +50,11 @@ const Nav = () => {
             </div>
             
             <div className='flex items-center justify-center mx-5 space-x-5 text-white'>
-              <a className=' w-24 text-center rounded-lg flex items-center justify-center h-7 bg-blue-500' href='/whitepaper.pdf' target='_blank'>
+              <a className='text-center rounded-lg flex items-center justify-center bg-blue-500 hover:bg-blue-600 py-1 px-2' href='/whitepaper.pdf' target='_blank'>
                 WhitePaper
               </a>
-              <h1 className=' cursor-pointer bg-blue-500 hover:text-blue-200 p-2 rounded-lg' onClick={() => changeLanguage("mn")}>MN</h1>
-              <h1 className=' cursor-pointer bg-blue-500 hover:text-blue-200 p-2 rounded-lg' onClick={() => changeLanguage("en")}>EN</h1>
+              <h1 className='cursor-pointer bg-blue-500 hover:bg-blue-600 rounded-lg py-1 px-2' onClick={() => changeLanguage("mn")}>MN</h1>
+              <h1 className='cursor-pointer bg-blue-500 hover:bg-blue-600 rounded-lg py-1 px-2' onClick={() => changeLanguage("en")}>EN</h1>
               <Hamburger />
             </div>
           </div>
